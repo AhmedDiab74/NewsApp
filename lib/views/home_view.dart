@@ -39,7 +39,7 @@ class HomeView extends StatelessWidget {
                   child: SizedBox(
                 height: 10,
               )),
-              NewsListViewBuilder()
+              NewsListViewBuilder(category: "general",)
             ],
           ),
         ));
